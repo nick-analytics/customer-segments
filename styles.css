@@ -496,3 +496,15 @@ body {
     font-size: 0.85rem;
     line-height: 1.5;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 40px 20px;
+    }
+    .headline-stats {
+        gap: 24px;
+    }
+    .divider {
+        display: none;
+    }
+}
